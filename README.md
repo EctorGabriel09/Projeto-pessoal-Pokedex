@@ -31,13 +31,13 @@ Uma aplicação mobile desenvolvida em **React Native** utilizando **Expo Go**, 
 ### Clone o repositório
 
 ```bash
-git clone https://github.com/EctorGabriel09/NOME_DO_REPOSITORIO.git
+git clone https://github.com/EctorGabriel09/Projeto-pessoal-Pokedex
 ```
 
 ### Acesse a pasta
 
 ```bash
-cd NOME_DO_REPOSITORIO
+cd Projeto-pessoal-Pokedex
 ```
 
 ### Instale as dependências
