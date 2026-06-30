@@ -1,48 +1,79 @@
-# Pokedex React Native
+# 📱 Pokédex Mobile
 
-Aplicativo mobile feito com Expo, React Navigation, PokeAPI e Firebase Firestore.
+Uma aplicação mobile desenvolvida em **React Native** utilizando **Expo Go**, com o objetivo de oferecer uma Pokédex simples, moderna e intuitiva para consulta e gerenciamento de Pokémon.
 
-## O que foi implementado
+## ✨ Funcionalidades
 
-- Navegacao roteada com React Navigation:
-  - `Home`: lista e busca Pokemon pela PokeAPI.
-  - `Details`: detalhes do Pokemon e botao para favoritar.
-  - `Favorites`: lista os favoritos salvos no Firestore.
-- API externa gratuita: PokeAPI via `fetch`.
-- CRUD completo no Firestore:
-  - Create: botao `Favoritar Pokemon`.
-  - Read: tela `Favoritos salvos`.
-  - Update: botao `Editar` e `Salvar`.
-  - Delete: botao `Excluir`.
-- Animacao com `Animated`: imagem do Pokemon pulsando na tela de detalhes.
+- 🔎 Pesquisa de Pokémon pelo ID
+- ❤️ Sistema de favoritos
+- ✏️ Alteração do nome dos Pokémon
+- 📋 Exibição do nome e ID dos Pokémon
+- 📱 Interface responsiva para dispositivos móveis
+- ⚡ Navegação simples e intuitiva
 
-## Configurar Firebase
+## 🚀 Tecnologias Utilizadas
 
-1. Crie um projeto no Firebase Console.
-2. Crie um app Web dentro do projeto.
-3. Copie o objeto `firebaseConfig`.
-4. Substitua os valores em `src/firebase/config.js`.
-5. Ative o Firestore Database.
+- React Native
+- Expo
+- JavaScript
+- Expo Go
 
-Para testes academicos sem login, voce pode iniciar o Firestore em modo de teste.
-Se precisar colar regras manualmente:
+## 📸 Funcionalidades
 
-```txt
-rules_version = '2';
+- Visualização dos Pokémon
+- Pesquisa rápida por ID
+- Favoritar Pokémon
+- Editar o nome de um Pokémon
+- Interface amigável para dispositivos móveis
 
-service cloud.firestore {
-  match /databases/{database}/documents {
-    match /favorites/{document=**} {
-      allow read, write: if true;
-    }
-  }
-}
+## ▶️ Como executar
+
+### Clone o repositório
+
+```bash
+git clone https://github.com/EctorGabriel09/NOME_DO_REPOSITORIO.git
 ```
 
-## Rodar
+### Acesse a pasta
+
+```bash
+cd NOME_DO_REPOSITORIO
+```
+
+### Instale as dependências
 
 ```bash
 npm install
-npm start
 ```
 
+### Execute o projeto
+
+```bash
+npx expo start
+```
+
+Depois basta abrir o aplicativo **Expo Go** em seu celular e escanear o QR Code exibido no terminal.
+
+## 📂 Estrutura do Projeto
+
+```
+📁 assets
+📁 components
+📁 screens
+📁 services
+📁 navigation
+App.js
+package.json
+```
+
+*(A estrutura pode variar conforme seu projeto.)*
+
+## 🎯 Objetivo
+
+Este projeto foi desenvolvido como atividade prática da disciplina de **Programação para Aplicativos Móveis**, com foco no aprendizado de React Native, Expo, gerenciamento de componentes, navegação e manipulação de dados.
+
+## 👨‍💻 Autor
+
+**Ector Gabriel de Morais Teixeira**
+
+- GitHub: https://github.com/EctorGabriel09
