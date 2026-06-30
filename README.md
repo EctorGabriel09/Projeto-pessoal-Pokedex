@@ -1,4 +1,4 @@
-# 📱 Pokédex Mobile
+# 📱 Pokedex Mobile
 
 Uma aplicação mobile desenvolvida em **React Native** utilizando **Expo Go**, com o objetivo de oferecer uma Pokédex simples, moderna e intuitiva para consulta e gerenciamento de Pokémon.
 
